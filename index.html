@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Language App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="app-title">Multi-Language Support Demo</h1>
+            <div class="language-selector">
+                <label for="language" id="lang-label">Select Language:</label>
+                <select id="language">
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                    <option value="fr">Français</option>
+                </select>
+            </div>
+        </header>
+
+        <main>
+            <section class="welcome-section">
+                <h2 id="welcome-title">Welcome</h2>
+                <p id="welcome-text">This is a simple demonstration of multi-language support in a web application. Select a language from the dropdown menu above to see the content change.</p>
+            </section>
+
+            <section class="features-section">
+                <h2 id="features-title">Features</h2>
+                <ul>
+                    <li id="feature-1">Easy language switching</li>
+                    <li id="feature-2">Supports multiple languages</li>
+                    <li id="feature-3">Simple and clean interface</li>
+                    <li id="feature-4">Responsive design</li>
+                </ul>
+            </section>
+
+            <section class="info-section">
+                <h2 id="info-title">About</h2>
+                <p id="info-text">This application demonstrates how to implement multi-language support using HTML, CSS, and JavaScript. The selected language preference is saved in the browser's local storage.</p>
+            </section>
+        </main>
+
+        <footer>
+            <p id="footer-text">&copy; 2025 Multi-Language App. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="translations.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
