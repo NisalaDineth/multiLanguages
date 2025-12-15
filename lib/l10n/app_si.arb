@@ -1,0 +1,13 @@
+{
+  "@@locale": "si",
+  "appTitle": "Multi-Language App",
+  "welcomeMessage": "Welcome to Multi-Language Support!",
+  "changeLanguage": "Change Language",
+  "english": "English",
+  "sinhala": "Sinhala",
+  "currentLanguage": "Current Language: {language}",
+  "greeting": "Hello!",
+  "description": "This is a demo Flutter application with multi-language support. Currently, English is implemented, but the structure is ready to add Sinhala translations.",
+  "selectLanguage": "Select Language",
+  "cancel": "Cancel"
+}
