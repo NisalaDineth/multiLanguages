@@ -51,4 +51,10 @@ function loadSavedLanguage() {
 // Initialize the app when the page loads
 document.addEventListener('DOMContentLoaded', function() {
     loadSavedLanguage();
+    
+    // Add event listener for language selection
+    const languageSelect = document.getElementById('language');
+    if (languageSelect) {
+        languageSelect.addEventListener('change', changeLanguage);
+    }
 });
