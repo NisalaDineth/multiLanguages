@@ -34,7 +34,7 @@
   "@greeting": {
     "description": "A simple greeting"
   },
-  "description": "This is a demo Flutter application with multi-language support. Currently, English is implemented, but the structure is ready to add Sinhala translations.",
+  "description": "[To be translated] This is a demo Flutter application with multi-language support.",
   "@description": {
     "description": "Description text explaining the app"
   },
