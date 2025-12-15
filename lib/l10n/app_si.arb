@@ -1,13 +1,49 @@
 {
   "@@locale": "si",
   "appTitle": "Multi-Language App",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
   "welcomeMessage": "Welcome to Multi-Language Support!",
+  "@welcomeMessage": {
+    "description": "Welcome message displayed on the home screen"
+  },
   "changeLanguage": "Change Language",
+  "@changeLanguage": {
+    "description": "Button text to change language"
+  },
   "english": "English",
+  "@english": {
+    "description": "English language option"
+  },
   "sinhala": "Sinhala",
+  "@sinhala": {
+    "description": "Sinhala language option"
+  },
   "currentLanguage": "Current Language: {language}",
+  "@currentLanguage": {
+    "description": "Shows the current selected language",
+    "placeholders": {
+      "language": {
+        "type": "String",
+        "example": "English"
+      }
+    }
+  },
   "greeting": "Hello!",
+  "@greeting": {
+    "description": "A simple greeting"
+  },
   "description": "This is a demo Flutter application with multi-language support. Currently, English is implemented, but the structure is ready to add Sinhala translations.",
+  "@description": {
+    "description": "Description text explaining the app"
+  },
   "selectLanguage": "Select Language",
-  "cancel": "Cancel"
+  "@selectLanguage": {
+    "description": "Dialog title for language selection"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button text"
+  }
 }
